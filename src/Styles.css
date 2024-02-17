@@ -1,0 +1,76 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles pour MovieList */
+.movie-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Utilisation de Flexbox pour aligner les éléments sur la même ligne */
+    flex-wrap: wrap;
+    /* Pour gérer le retour à la ligne */
+}
+
+.movie-list li {
+    width: 250px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.movie-list img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/* Styles pour MovieDetails */
+.movie-details {
+    max-width: 800px;
+    margin: 0 auto;
+    /* Centrage horizontal */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.movie-details p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.movie-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-details iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    border-radius: 10px;
+}
